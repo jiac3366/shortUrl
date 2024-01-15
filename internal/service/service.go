@@ -2,7 +2,7 @@ package service
 
 import (
 	pb "github.com/BitofferHub/proto_center/api/shortUrlXsvr/v1"
-	"github.com/bitstormhub/bitstorm/shortUrlX/internal/biz"
+	"github.com/BitofferHub/shortUrlX/internal/biz"
 	"github.com/google/wire"
 )
 

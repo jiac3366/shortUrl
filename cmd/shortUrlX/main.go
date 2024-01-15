@@ -5,12 +5,12 @@ import (
 	"github.com/BitofferHub/pkg/middlewares/discovery"
 	"github.com/BitofferHub/pkg/middlewares/log"
 	"github.com/BitofferHub/pkg/middlewares/snowflake"
+	"github.com/go-kratos/kratos/v2"
 	"os"
 	"time"
 
-	"github.com/bitstormhub/bitstorm/shortUrlX/internal/conf"
+	"github.com/BitofferHub/shortUrlX/internal/conf"
 
-	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/config"
 	"github.com/go-kratos/kratos/v2/config/file"
 	"github.com/go-kratos/kratos/v2/transport/grpc"

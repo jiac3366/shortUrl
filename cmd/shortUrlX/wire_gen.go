@@ -7,12 +7,12 @@
 package main
 
 import (
-	"github.com/bitstormhub/bitstorm/shortUrlX/internal/biz"
-	"github.com/bitstormhub/bitstorm/shortUrlX/internal/conf"
-	"github.com/bitstormhub/bitstorm/shortUrlX/internal/data"
-	"github.com/bitstormhub/bitstorm/shortUrlX/internal/interfaces"
-	"github.com/bitstormhub/bitstorm/shortUrlX/internal/server"
-	"github.com/bitstormhub/bitstorm/shortUrlX/internal/service"
+	"github.com/BitofferHub/shortUrlX/internal/biz"
+	"github.com/BitofferHub/shortUrlX/internal/conf"
+	"github.com/BitofferHub/shortUrlX/internal/data"
+	"github.com/BitofferHub/shortUrlX/internal/interfaces"
+	"github.com/BitofferHub/shortUrlX/internal/server"
+	"github.com/BitofferHub/shortUrlX/internal/service"
 	"github.com/go-kratos/kratos/v2"
 )
 

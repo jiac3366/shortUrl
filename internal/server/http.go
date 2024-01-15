@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/bitstormhub/bitstorm/shortUrlX/internal/conf"
-	"github.com/bitstormhub/bitstorm/shortUrlX/internal/interfaces"
+	"github.com/BitofferHub/shortUrlX/internal/conf"
+	"github.com/BitofferHub/shortUrlX/internal/interfaces"
 	"github.com/go-kratos/kratos/v2/middleware/recovery"
 	"github.com/go-kratos/kratos/v2/transport/http"
 )

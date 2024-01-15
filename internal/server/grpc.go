@@ -2,8 +2,8 @@ package server
 
 import (
 	v1 "github.com/BitofferHub/proto_center/api/shortUrlXsvr/v1"
-	"github.com/bitstormhub/bitstorm/shortUrlX/internal/conf"
-	"github.com/bitstormhub/bitstorm/shortUrlX/internal/service"
+	"github.com/BitofferHub/shortUrlX/internal/conf"
+	"github.com/BitofferHub/shortUrlX/internal/service"
 	mmd "github.com/go-kratos/kratos/v2/middleware/metadata"
 	"github.com/go-kratos/kratos/v2/middleware/recovery"
 	"github.com/go-kratos/kratos/v2/transport/grpc"

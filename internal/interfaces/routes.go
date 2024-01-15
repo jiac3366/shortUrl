@@ -4,7 +4,7 @@ package interfaces
 
 import (
 	engine "github.com/BitofferHub/pkg/middlewares/gin"
-	"github.com/bitstormhub/bitstorm/shortUrlX/internal/service"
+	"github.com/BitofferHub/shortUrlX/internal/service"
 	"github.com/gin-gonic/gin"
 )
 
