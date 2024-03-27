@@ -112,11 +112,13 @@ func (r *urlMapRepo) FindShortUrlFormBloomFilter(ctx context.Context, shortUrl s
 
 // 保存短链到缓存中
 func (r *urlMapRepo) SaveToCache(ctx context.Context, longUrl, shortUrl string) error {
+	// 防止生成短链接口被重复调用
 	err := r.data.cache.Set(ctx, longUrlPrefix+longUrl, shortUrl, expireTime)
 	if err != nil {
 		return err
 	}
 
+	// 用短链查询
 	err = r.data.cache.Set(ctx, shortUrlPrefix+shortUrl, longUrl, expireTime)
 	return err
 }
